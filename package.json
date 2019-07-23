@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-template",
+  "version": "1.0.0",
+  "description": "This project contains all the basic feature which is required by the all nodejs project like, signin, signup, CRUD Operation using MongoDB, RabbitMQ, JWT for authorization and authentication etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "MongoDB",
+    "RabbitMQ",
+    "JWT",
+    "Authentication",
+    "Authorization"
+  ],
+  "author": "Abdul Gani",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.1.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.2",
+    "redis": "^2.8.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
